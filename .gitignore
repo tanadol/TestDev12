@@ -70,3 +70,44 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# OSX files
+.DS_Store
+.DS_Store?
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Automatically generated Visual Studio files
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity cache files
+*.stackdump
+*.log
+
+# Unity metadata files
+*.meta
+
+# Gradle files (for Android builds)
+.gradle/
+*.apk
+*.keystore
+
+# Other files
+*.patch
+*.orig
+*.diff

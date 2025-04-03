@@ -1,0 +1,15 @@
+//key,EN
+invalidusername,A username must consist of only letters and/or numbers and be at least 4 characters long.
+invalidpassword,A password must be at least 6 characters in length.
+invalidpasswordmismatch,The passwords entered do not match. Please re-enter and ensure both passwords are identical.
+signupsuccess,Your account has been successfully created. Please log in to continue.
+signuperroruserexist,Username already exists.
+nousernamorpassword,Username and password are required.
+signupfailed,Registration failed.
+invalidrequestmethod,Invalid request method.
+networkerror,Network Error. Check your internet connection.
+loginfailed,Invalid username or password.
+diamondlessthanzero ,not enough diamond to spend.
+diamondbeyondmaxvalue,can not change. diamond is above 10000 value.
+heartlessthanzero ,not enough heart.
+heartbeyondmaxvalue,can not change. Heart is above 100 value.
