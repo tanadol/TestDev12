@@ -82,6 +82,7 @@ public class UIController : MonoBehaviour
     public Image img_heart_slider;
     public float slider_width_min,slider_width_max;
     public TMP_Text t_diamond_count;
+    public MMF_Player heart_feedback,diamond_feedback;
 
 
     #region Start/Update
@@ -101,12 +102,6 @@ public class UIController : MonoBehaviour
         
     }
     
-    #endregion
-
-    #region Text input
-
-    
-
     #endregion
 
     #region Show/Close Windows
@@ -261,6 +256,10 @@ public class UIController : MonoBehaviour
                     {
                         player.setRespondData(respond); //set player data
                         refreshValueDisplay();
+                        StartCoroutine(DelayOneFrame(() =>
+                        {
+                            heart_feedback.PlayFeedbacks(); //show bounce effect
+                        }));
                     }
                     else
                     {
@@ -279,6 +278,10 @@ public class UIController : MonoBehaviour
                 {
                     player.setRespondData(respond); //set player data
                     refreshValueDisplay();
+                    StartCoroutine(DelayOneFrame(() =>
+                    {
+                        diamond_feedback.PlayFeedbacks(); //show bounce effect
+                    }));
                 }
                 else
                 {
